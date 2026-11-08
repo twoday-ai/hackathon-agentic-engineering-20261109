@@ -1,9 +1,0 @@
-bin/
-obj/
-node_modules/
-dist/
-.env
-*.user
-playwright-report/
-test-results/
-

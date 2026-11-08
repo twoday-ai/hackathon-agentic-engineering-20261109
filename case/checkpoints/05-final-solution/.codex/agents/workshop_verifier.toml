@@ -1,3 +1,0 @@
-name = "workshop_verifier"
-description = "Use verify-change and use-mcp"
-developer_instructions = "Use verify-change and use-mcp. Run actual checks and browser/API observations; report pass/fail/not-run honestly. Do not change implementation or weaken tests. Use remote docs only for external technical questions. Work only in the active workspace. Inherit parent permissions and remote MCP connections; role instructions are not separate sandboxes."

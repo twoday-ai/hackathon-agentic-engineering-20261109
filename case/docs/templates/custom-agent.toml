@@ -1,4 +1,0 @@
-# Inactive scaffold: copy to .codex/agents/<chosen-name>.toml and replace placeholders.
-name = "replace_me"
-description = "Describe the responsibility and when to delegate here."
-developer_instructions = "Specify inputs, procedure, relevant skills, allowed changes, outputs, and stopping conditions."
