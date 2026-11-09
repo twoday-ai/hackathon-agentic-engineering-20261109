@@ -1,0 +1,28 @@
+:root { font-family: "Segoe UI", system-ui, sans-serif; color: #18312d; background: #f3f5f2; font-synthesis: none; }
+* { box-sizing: border-box; } body { margin: 0; } button, input, textarea { font: inherit; }
+button, .button { cursor: pointer; border: 1px solid #cbd6ce; border-radius: 7px; padding: .7rem 1rem; }
+button:disabled { cursor: default; opacity: .5; } button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #db9e32; outline-offset: 3px; }
+.workspace, .welcome { max-width: 1150px; margin: 0 auto; padding: 44px 30px; }
+.welcome { max-width: 800px; } .page-header, .detail-heading { display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+.eyebrow { letter-spacing: .15em; font-size: .7rem; font-weight: 700; color: #476c5c; }
+h1 { margin: 10px 0; font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: -.04em; }
+h2 { font-size: 1.25rem; margin-top: 0; } h3 { font-size: 1rem; } .muted, dt, footer { color: #60756b; }
+.layout { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 22px; margin-top: 30px; }
+.card { background: #fff; border: 1px solid #dde4dd; border-radius: 12px; padding: 25px; }
+.inbox ul, .activity { list-style: none; padding: 0; margin: 0; } .inbox li + li { margin-top: 10px; }
+.request-item { width: 100%; text-align: left; background: #fff; display: grid; gap: 8px; }
+.request-item span, .request-item small { color: #60756b; } .request-item.selected { border-color: #397354; background: #edf5ed; }
+.detail { min-height: 480px; } .empty { padding: 100px 0; text-align: center; color: #60756b; }
+dl { margin: 22px 0; } dl > div { margin-bottom: 18px; } dt { font-size: .8rem; margin-bottom: 5px; } dd { margin: 0; overflow-wrap: anywhere; }
+.badge { font-size: .75rem; padding: 6px 10px; border-radius: 20px; background: #edf0ec; }
+.badge.reviewed { background: #e3efe4; color: #26623a; } .check { padding: 14px 18px; border-radius: 8px; margin: 20px 0; }
+.check h3 { margin: 0; } .check ul { margin: 10px 0 0; padding-left: 18px; } .check ul:empty { display: none; }
+.ready { background: #edf5ed; } .missing { background: #fff5df; } .primary { background: #24583f; color: #fff; border-color: #24583f; }
+.secondary { background: #fff; color: #24583f; } a.button { text-decoration: none; white-space: nowrap; }
+.detail > button + button { margin-left: 10px; } .editor { border-top: 1px solid #e5eae4; margin: 22px 0; padding-top: 20px; }
+.editor label { display: grid; gap: 7px; margin: 14px 0; font-size: .9rem; } input, textarea { width: 100%; border: 1px solid #bac9bf; border-radius: 6px; padding: 10px; }
+textarea { resize: vertical; min-height: 85px; } .editor .checkbox { display: flex; align-items: center; } input[type=checkbox] { width: 18px; height: 18px; accent-color: #24583f; }
+.actions { display: flex; gap: 10px; } .error { background: #fcebea; color: #8d3028; padding: 13px; border-radius: 7px; }
+.activity li { display: grid; gap: 5px; border-top: 1px solid #e5eae4; padding: 14px 0; font-size: .85rem; }
+.activity span, .activity small { color: #60756b; overflow-wrap: anywhere; } .reviewed-note { color: #397354; }
+footer { margin-top: 24px; font-size: .75rem; } @media (max-width: 720px) { .layout { grid-template-columns: 1fr; } .page-header { align-items: flex-start; flex-direction: column; } .workspace { padding: 24px 16px; } }
