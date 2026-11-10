@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "tests\\Checkout.Tests\\PricingTests.cs",
+      "sha256": "9D22F0D478AE8A71C190437D023C3F8ED022D8ACAC2AFDCA9A6B73AA205C2004"
+    },
+    {
+      "path": "tests\\Checkout.Tests\\ApiTests.cs",
+      "sha256": "F6E9D2C16FC1793145CA4A3ECDEE33666231E939ABDEBF638E4D1AA0D247CB8F"
+    },
+    {
+      "path": "tests\\Checkout.Tests\\Checkout.Tests.csproj",
+      "sha256": "DE81EE4725D64534A9295AD44BE6E95110045FB3ACFD7A8176062FE48306EC1D"
+    },
+    {
+      "path": "frontend\\src\\api.test.ts",
+      "sha256": "E7E2A855754F8BFE7603EFBF9CA4246D9815A7CB08A0995631B696CFF1A2806F"
+    },
+    {
+      "path": "frontend\\src\\App.test.tsx",
+      "sha256": "85A01A77D3D0B4CE460EF9354B0AB3461CEAEB3647F29FD30AE071CDEDF7C048"
+    },
+    {
+      "path": "frontend\\src\\test-setup.ts",
+      "sha256": "00D5AB833D1FD76E4FA6FA2FD55C4D9837B7E357C5FA89F1B9E3BFBF18603AAE"
+    },
+    {
+      "path": "frontend\\vite.config.ts",
+      "sha256": "C212BD1E447D00CCA84B828CB141C854FC0CF89A9D514A6DFCD2BFDA66B841E1"
+    },
+    {
+      "path": "frontend\\package.json",
+      "sha256": "AC38FC300A264385E4ADF0560490D33B3961F92BBB5F8115D91D75DCD3209D81"
+    }
+  ]
+}
